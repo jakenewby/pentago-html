@@ -5,8 +5,7 @@
     "npm": "2.7.5"
   },
   "scripts":{
-    "start": "node web.js",
-    "postinstall": "gulp"
+    "start": "node web.js"
   },
   "devDependencies": {
     "babel-core": "^5.5.6",
