@@ -5,13 +5,13 @@
   left: 0;
   z-index: -1;
 
-  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.65)));
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.65)), to(rgba(0,0,0, .15)));
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
 
-  filter: blur(3px);
   position: absolute;
   background-size: cover;
   background-image: url("http://www.ylilammi.com/wp-content/uploads/2013/09/Pentago.jpg");
