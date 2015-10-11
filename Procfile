@@ -1,1 +1,1 @@
-web: ruby web.rb
+web: node web.js
