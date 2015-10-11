@@ -1,0 +1,78 @@
+.home {
+  .header {
+    .site-title {
+      color: $white;
+    }
+
+    .nav {
+      > li {
+        padding-right: 5px;
+
+        &:hover:not(.active) {
+          > a {
+            color: $bootstrap-blue;
+          }
+        }
+
+        > a {
+          color: $white;
+        }
+      }
+    }
+  }
+  .jumbotron {
+    background: none;
+    color: $white;
+    .top {
+      margin-bottom: 45px;
+    }
+    .btn {
+      width: 250px;
+    }
+    .divider {
+      padding: 5px;
+    }
+  }
+  .features {
+    margin-bottom: 45px;
+
+    .box {
+      margin-top: 15px;
+      position: relative;
+      border-radius: 5px;
+      background-color: rgba($white, .75);
+      height: 100px;
+      padding: 15px;
+
+      .sprite {
+
+      }
+      .title {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 600;
+        color: $black;
+      }
+      .content {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .footer {
+    color: $white;
+
+    a {
+      color: $white;
+      text-decoration: underline;
+    }
+    .top {
+      .left {
+        float: left;
+      }
+      .right {
+        float: right;
+      }
+    }
+  }
+}

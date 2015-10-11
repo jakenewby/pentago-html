@@ -1,0 +1,17 @@
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+
+  filter: blur(3px);
+  position: absolute;
+  background-size: cover;
+  background-image: url("http://www.ylilammi.com/wp-content/uploads/2013/09/Pentago.jpg");
+}
